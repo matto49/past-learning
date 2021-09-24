@@ -1,0 +1,16 @@
+昨天没看到下面那个群公告...现在才创issue
+text-web是前几天粗略入门的时候摸的，一起放进去了
+
+今天摸的是具体的html介绍，先是文本类的：
+"dl dt dd"（描述列表）、blockquote/q、cite（引用）、abbr（缩写）、address（联系方式）、sub/sup（上下标）、code（标记代码）、pre（忠实输出空白）、
+kdb（键盘按键）、var（标记变量）、time（datatime）（按格式标记时间）、header（页眉）、nav（导航栏）、main（主内容）、aside（边栏）、footer（页脚）
+article（文章）、section（分块）、span/div（无义元素  内/外）、br（换行）、hr（分割线）、
+
+
+然后多媒体的输入：img（图片）、video（视频）、audio（音频）、iframe（web）、object（PDF）、svg（矢量图）、picture
+还有些属性：src（链接）、width/height、alt（说明）（figure+figcation）、title（鼠标划上去的字）、
+autoplay、loop、muted、preload（音频类的）、poster（视频预览）、sandbox（加安全性的）、srcset（定义可选图像）、size
+
+写日记的时候感觉又把东西过了一遍
+表单明天学吧
+还有好多要学的东西啊啊啊啊
