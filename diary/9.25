@@ -1,0 +1,4 @@
+今天是学了一下html的表格元素
+讲了各种表格标记元素
+table/tr/td、th（表头）、colspan/rowspan（一个单元格占几个）、colgroup（管理每一列）、thead（标题）、tbody、tfoot
+th+scope（明确定义单元格内容）、id+header（也是标记）
