@@ -4,16 +4,36 @@
 
 a{
     text-decoration: none;
+    color: #2a2a2a;
+}
+
+ul{
+    list-style-type: none;
+}
+
+button{
+    border: none;
+    background: transparent;
+}
+
+h2{
+    font-size: 20px;
 }
 
 html{
     background: darkgrey;
 }
 
+body{
+    margin:0 auto;
+}
+
 header{
-    position:fixed;
     background: #FFFFFF;
     width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
 }
 
 .header-inner{
@@ -24,7 +44,7 @@ header{
     align-items: center;
     position: relative;
     width: auto;
-    max-width: 1156px;
+    max-width: 1256px;
     min-width: 1000px;;
 }
 
@@ -40,6 +60,14 @@ header{
 
 .header-left ul li{
     padding:0 10px;
+}
+
+.header-left a{
+    color: #afadad;
+}
+
+.header-left a:hover {
+    color: #444;
 }
 
 .header-middle{
@@ -87,6 +115,7 @@ header{
     color: #f5f2ff;
     border-radius: 999px;
     padding: 10px 20px;
+    border: none;
 }
 
 .header-user{
@@ -95,13 +124,80 @@ header{
 
 .header-user-bell{
     margin: 0 30px 0 0;
-    border: none;
-    background: transparent;
 }
 
 .header-user-msg{
     margin: 0 20px 0 0;
-    border: none;
-    background: transparent;
 }
 
+main{
+    display: Grid;
+    grid-template-columns: 2.5fr 1fr ;
+    margin:60px auto 0 auto;
+    width: 1032px;
+}
+
+.maincolumn{
+    background: #fff;
+    width: 694px;
+    margin-left: auto;
+}
+
+main nav{
+    height: 58px;
+    display: flex;
+    align-items: center;
+}
+
+main nav a{
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+main nav a:hover{
+    color: #175199;
+}
+
+.maincolumn-content{
+
+}
+
+.maincolumn-content-n{
+    padding:16px 20px;
+    margin: 4px 0 12px 0;
+}
+
+.authorinfo{
+    margin-bottom: 14px;
+    font-size: 18px;
+}
+
+.authordetail{
+    display: inline-block;
+    color: #646464;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+aside{
+    margin-left: 20px;
+    background:#fff;
+    width: 290px;
+}
+
+.aside-top{
+    width: 100%;
+    float: none;
+}
+
+.aside-up{
+    float: none;
+}
+
+.aside-bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.aside-bottom  li{
+}
