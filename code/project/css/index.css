@@ -1,7 +1,3 @@
-*{
-    box-sizing: border-box;
-}
-
 a{
     text-decoration: none;
     color: #2a2a2a;
@@ -21,7 +17,7 @@ h2{
 }
 
 html{
-    background: darkgrey;
+    background: rgba(191, 198, 194, 0.25);
 }
 
 body{
@@ -34,6 +30,7 @@ header{
     position: fixed;
     top: 0;
     z-index: 1;
+    border-bottom: 1px solid #f0f2f7;
 }
 
 .header-inner{
@@ -165,11 +162,38 @@ main nav a:hover{
 .maincolumn-content-n{
     padding:16px 20px;
     margin: 4px 0 12px 0;
+    border-bottom: 1px solid #f0f2f7;
 }
 
 .authorinfo{
-    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    height: 40px;
     font-size: 18px;
+}
+
+.authorinfo img{
+    margin-right: 10px;
+    display: flex;
+}
+
+.actions{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.赞成,.反对{
+    padding: 0 12px;
+    background: rgba(0,102,255,.1);
+    height: 30px;
+    margin-right: 5px;
+    color: #06f;
+    font-size: 16px;
+}
+
+.评论,.分享,.收藏,.喜欢{
+    margin: 0 10px 0 5px;
 }
 
 .authordetail{
@@ -181,23 +205,79 @@ main nav a:hover{
 
 aside{
     margin-left: 20px;
+    padding: 0 17px 0 17px;
     background:#fff;
     width: 290px;
 }
 
 .aside-top{
+    display: flex;
     width: 100%;
-    float: none;
+    height: 70px;
+    align-items: center;
+}
+
+.aside-top-words1{
+    margin:0 30px 0 10px;
+    font-size: 14px;
+}
+
+.aside-top-words2{
+    margin:0 0 0 10px;
+    font-size: 14px;
 }
 
 .aside-up{
-    float: none;
+    height: 100px;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+}
+
+.aside-up button{
+    flex:1;
+}
+
+.aside-up a:hover{
+    color: #9bb3a7;
 }
 
 .aside-bottom{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 20px 0 20px;
+    height: 200px;
 }
 
 .aside-bottom  li{
+    text-align: center;
+    align-items: center
+}
+
+.aside-bottom a{
+    color: #8590a6;
+}
+
+.Live a:hover{
+    color: rgb(255, 207, 0);
+}
+
+.书店 a:hover{
+    color: rgb(67, 212, 128);
+}
+
+.圆桌 a:hover{
+    color: rgb(0, 102, 255);
+}
+
+.专栏 a:hover{
+    color: rgb(15, 136, 235);
+}
+
+.付费咨询 a:hover{
+    color: rgb(84, 120, 240);
+}
+
+.百科 a:hover{
+    color: rgb(88, 104, 209);
 }
