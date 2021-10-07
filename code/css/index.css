@@ -1,0 +1,270 @@
+
+main{
+    display: Grid;
+    grid-template-columns: 2.5fr 1fr ;
+    margin:60px auto 0 auto;
+    width: 1032px;
+}
+
+.maincolumn{
+    background: #fff;
+    width: 694px;
+    margin-left: auto;
+}
+
+main nav{
+    height: 58px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+}
+
+main nav a{
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+main nav a:hover{
+    color: #175199;
+}
+
+.maincolumn-content-n{
+    padding:16px 20px;
+    margin: 4px 0 12px 10px;
+    border-bottom: 1px solid #f0f2f7;
+}
+
+.authorinfo{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    font-size: 18px;
+}
+
+.authorinfo img{
+    margin-right: 10px;
+    display: flex;
+}
+
+.actions{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.赞成,.反对{
+    padding: 0 12px;
+    background: rgba(0,102,255,.1);
+    height: 30px;
+    margin-right: 5px;
+    color: #06f;
+    font-size: 16px;
+}
+
+.评论,.分享,.收藏,.喜欢{
+    margin: 0 10px 0 5px;
+}
+
+.authordetail{
+    display: inline-block;
+    color: #646464;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+aside{
+    margin-left: 20px;
+    padding: 0 17px 0 17px;
+    background:#fff;
+    width: 290px;
+}
+
+.aside-top{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+}
+
+.aside-top-words1{
+    margin:0 30px 0 10px;
+    font-size: 14px;
+}
+
+.aside-top-words2{
+    margin:0 0 0 10px;
+    font-size: 14px;
+}
+
+.aside-up{
+    height: 100px;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+}
+
+.aside-up button{
+    flex:1;
+}
+
+.aside-up a:hover{
+    color: #9bb3a7;
+}
+
+.aside-bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 20px 0 20px;
+    height: 200px;
+}
+
+.aside-bottom  li{
+    text-align: center;
+    align-items: center
+}
+
+.aside-bottom a{
+    color: #8590a6;
+}
+
+.Live a:hover{
+    color: rgb(255, 207, 0);
+}
+
+.书店 a:hover{
+    color: rgb(67, 212, 128);
+}
+
+.圆桌 a:hover{
+    color: rgb(0, 102, 255);
+}
+
+.专栏 a:hover{
+    color: rgb(15, 136, 235);
+}
+
+.付费咨询 a:hover{
+    color: rgb(84, 120, 240);
+}
+
+.百科 a:hover{
+    color: rgb(88, 104, 209);
+}
+
+.header-user-detail{
+    position: fixed;
+    left: 1280px;
+    top:50px;
+    background: #fff;
+    padding: 10px 20px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    display: none;
+}
+
+.header-user-detail a{
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+    color: #8590a6;
+}
+
+.header-li-index{
+    border-bottom: 4px solid #ce994f;
+}
+
+.header-li-index a{
+    color: black;
+}
+
+.zhezhao{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(18,18,18,.65);
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.tankuang{
+    position: relative;
+    background: #fff;
+    width: 536px;
+    border-radius: 5px;
+    margin: 10% auto;
+}
+
+.header-right{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    background: red;
+    color: #fff;
+    right: 5px;
+    top: 5px;
+    text-align: center;
+}
+
+.tankuang h3{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+    margin: 0;
+}
+
+.tankuang .words{
+    text-align: center;
+    color: #8590a6;
+}
+
+.tankuang-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ebebeb;
+    padding: 8px 20px;
+}
+
+.tankuang-item-content{
+    margin: 20px 0 0 0;
+    line-height: 1.7;
+}
+
+.up{
+    line-height: 1.7;
+    font-weight: 700;
+}
+
+.down{
+    color: #8590a6;
+    font-size: 14px;
+}
+
+.tankuang-item button{
+    width: 76px;
+    color: #06f;
+    border: #06f;
+    line-height: 32px;
+    border: 1px solid;
+    border-radius: 3px;
+}
+
+.create{
+    margin: 50px 0;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.create button{
+    padding: 0 16px;
+    font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 3px;
+    background-color: #06f;
+    border-color: #06f;
+    color: #fff;
+}
