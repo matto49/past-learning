@@ -1,0 +1,129 @@
+a{
+    text-decoration: none;
+    color: #2a2a2a;
+}
+
+ul{
+    list-style-type: none;
+}
+
+button{
+    border: none;
+    background: transparent;
+}
+
+h2{
+    font-size: 20px;
+}
+
+html{
+    background: rgba(191, 198, 194, 0.25);
+}
+
+body{
+    margin:0 auto;
+}
+
+header{
+    background: #FFFFFF;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    border-bottom: 1px solid #f0f2f7;
+}
+
+.header-inner{
+    display: flex;
+    height: 52px;
+    padding:0 0 0 16px;
+    margin:0 auto;
+    align-items: center;
+    position: relative;
+    width: auto;
+    max-width: 1256px;
+    min-width: 1000px;;
+}
+
+.header-left ul{
+    font-size: 20px;
+    padding:20px 0;
+    margin:0 50px;
+    list-style-type: none;
+    display: flex;
+    top:10px;
+    justify-content: space-around;
+}
+
+.header-left ul li{
+    margin: 0 20px;
+    padding: 10px 0;
+}
+
+.header-left a{
+    color: #afadad;
+}
+
+.header-left a:hover {
+    color: #444;
+}
+
+.header-middle{
+    display: flex;
+    min-width: 500px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.header-middle label{
+    display: flex;
+    margin:0 10px 0 20px;
+    padding:0 0 0 20px;
+    border-radius: 1000px;
+    background: #f5f1f1;
+    align-items: center;
+    height: 40px;
+}
+
+.header-middle input{
+    background: #f5f1f1;
+    height: 24px;
+    border: none;
+}
+
+.search input{
+    overflow: hidden;
+    background: transparent;
+    border: none;
+    line-height: 24px;
+    height: 24px;
+    text-shadow: none;
+}
+
+.header-middle .search {
+    margin: 5px;
+    padding:8px 5px;
+    border: none;
+    background: #f5f1f1;
+    display: inline-block;
+}
+
+.header-middle-提问{
+    background: #06f;
+    color: #f5f2ff;
+    border-radius: 999px;
+    padding: 10px 20px;
+    border: none;
+}
+
+.header-user{
+    display: flex;
+}
+
+.header-user-bell{
+    margin: 0 30px 0 0;
+}
+
+.header-user-msg{
+    margin: 0 20px 0 0;
+}

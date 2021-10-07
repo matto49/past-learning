@@ -1,131 +1,3 @@
-a{
-    text-decoration: none;
-    color: #2a2a2a;
-}
-
-ul{
-    list-style-type: none;
-}
-
-button{
-    border: none;
-    background: transparent;
-}
-
-h2{
-    font-size: 20px;
-}
-
-html{
-    background: rgba(191, 198, 194, 0.25);
-}
-
-body{
-    margin:0 auto;
-}
-
-header{
-    background: #FFFFFF;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    z-index: 1;
-    border-bottom: 1px solid #f0f2f7;
-}
-
-.header-inner{
-    display: flex;
-    height: 52px;
-    padding:0 0 0 16px;
-    margin:0 auto;
-    align-items: center;
-    position: relative;
-    width: auto;
-    max-width: 1256px;
-    min-width: 1000px;;
-}
-
-.header-left ul{
-    font-size: 20px;
-    padding:0;
-    margin:0 20px;
-    list-style-type: none;
-    display: flex;
-    top:10px;
-    justify-content: space-around;
-}
-
-.header-left ul li{
-    padding:0 10px;
-}
-
-.header-left a{
-    color: #afadad;
-}
-
-.header-left a:hover {
-    color: #444;
-}
-
-.header-middle{
-    display: flex;
-    min-width: 500px;
-    margin: 0 auto;
-    justify-content: center;
-}
-
-.header-middle label{
-    display: flex;
-    margin:0 10px 0 20px;
-    padding:0 0 0 20px;
-    border-radius: 1000px;
-    background: #f5f1f1;
-    align-items: center;
-    height: 40px;
-}
-
-.header-middle input{
-    background: #f5f1f1;
-    height: 24px;
-    border: none;
-}
-
-.search input{
-    overflow: hidden;
-    background: transparent;
-    border: none;
-    line-height: 24px;
-    height: 24px;
-    text-shadow: none;
-}
-
-.header-middle .search {
-    margin: 5px;
-    padding:8px 5px;
-    border: none;
-    background: #f5f1f1;
-    display: inline-block;
-}
-
-.header-middle-提问{
-    background: #06f;
-    color: #f5f2ff;
-    border-radius: 999px;
-    padding: 10px 20px;
-    border: none;
-}
-
-.header-user{
-    display: flex;
-}
-
-.header-user-bell{
-    margin: 0 30px 0 0;
-}
-
-.header-user-msg{
-    margin: 0 20px 0 0;
-}
 
 main{
     display: Grid;
@@ -144,6 +16,7 @@ main nav{
     height: 58px;
     display: flex;
     align-items: center;
+    position: sticky;
 }
 
 main nav a{
@@ -155,13 +28,9 @@ main nav a:hover{
     color: #175199;
 }
 
-.maincolumn-content{
-
-}
-
 .maincolumn-content-n{
     padding:16px 20px;
-    margin: 4px 0 12px 0;
+    margin: 4px 0 12px 10px;
     border-bottom: 1px solid #f0f2f7;
 }
 
@@ -280,4 +149,122 @@ aside{
 
 .百科 a:hover{
     color: rgb(88, 104, 209);
+}
+
+.header-user-detail{
+    position: fixed;
+    left: 1280px;
+    top:50px;
+    background: #fff;
+    padding: 10px 20px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    display: none;
+}
+
+.header-user-detail a{
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+    color: #8590a6;
+}
+
+.header-li-index{
+    border-bottom: 4px solid #ce994f;
+}
+
+.header-li-index a{
+    color: black;
+}
+
+.zhezhao{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(18,18,18,.65);
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.tankuang{
+    position: relative;
+    background: #fff;
+    width: 536px;
+    border-radius: 5px;
+    margin: 10% auto;
+}
+
+.header-right{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    background: red;
+    color: #fff;
+    right: 5px;
+    top: 5px;
+    text-align: center;
+}
+
+.tankuang h3{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+    margin: 0;
+}
+
+.tankuang .words{
+    text-align: center;
+    color: #8590a6;
+}
+
+.tankuang-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ebebeb;
+    padding: 8px 20px;
+}
+
+.tankuang-item-content{
+    margin: 20px 0 0 0;
+    line-height: 1.7;
+}
+
+.up{
+    line-height: 1.7;
+    font-weight: 700;
+}
+
+.down{
+    color: #8590a6;
+    font-size: 14px;
+}
+
+.tankuang-item button{
+    width: 76px;
+    color: #06f;
+    border: #06f;
+    line-height: 32px;
+    border: 1px solid;
+    border-radius: 3px;
+}
+
+.create{
+    margin: 50px 0;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.create button{
+    padding: 0 16px;
+    font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 3px;
+    background-color: #06f;
+    border-color: #06f;
+    color: #fff;
 }
